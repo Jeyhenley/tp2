@@ -1,0 +1,24 @@
+*{
+    font-family: aero;
+    border: solid 1px black;
+}
+@font-face{
+    font-family: aero;
+    font-style: normal;
+    font-weight: bold;
+    src: url(../Aero.ttf);
+}
+body{
+    margin: 0%;
+}
+.anav{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+nav div{
+    background-color: #ee0000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
