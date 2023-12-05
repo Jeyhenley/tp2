@@ -1,6 +1,5 @@
 *{
     font-family: aero;
-    border: solid 1px black;
 }
 @font-face{
     font-family: aero;
@@ -14,8 +13,16 @@ body{
 .white{
     color: white;
 }
-
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
 /* style pour le nav */
+nav{
+    position: fixed;
+}
 nav div{
     background-color: #ee0000;
     display: flex;
@@ -23,4 +30,10 @@ nav div{
     align-items: center;
 }
 /* style pouyr le footer */
-
+footer{
+    background-color: #2b2b2b;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
