@@ -22,12 +22,13 @@ li{
 /* style pour le nav */
 nav{
     position: fixed;
+    z-index: 1;
 }
 nav div{
     background-color: #ee0000;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: end;
 }
 /* style pouyr le footer */
 footer{
