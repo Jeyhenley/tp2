@@ -72,20 +72,39 @@
     <!-- Les articles pour y mettre les contenus-->
         <article>
         <h2>Top</h2>
-        <div id="barnoir"></div>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active flex">
+                <img src="./images/Mercedes.png" class="d-block w-100" alt="Mercedes">
+                <img src="./images/redbull.png" alt="redbull">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
         </article>
         <article>
         <h2>Vidéo</h2>
-        <div id="lignered">
-            <iframe src="https://www.youtube.com/watch?v=viQC-6xoJ3E&ab_channel=FORMULA1" frameborder="1"></iframe>
-        </div>
+        <div id="lignered"></div>
         </article>
         <hr>
         <article>
         <h2>Qu'est-ce que la Formule 1?</h2>
         <div class="rouge">
             <p>
-                La Formule 1 est un sportpas comme les autres.
+                La Formule 1 est un sport pas comme les autres.
                  Un sport qui est d'une dimension mondial tout comme le soccer et les olympiques.
                  Un sport automobile considéré catégorie reine de ce sport.
                  Ce sport qui va fêter son 75e anniversaires lors de la saisonprochaine 2024.
@@ -135,17 +154,17 @@
         </article>
     <!-- Ceci est le footer de la page -->
         <footer>
-        <div class="flex">
-            <a href="https://formula1.com/en/toolbar/partners.html">
-                <img src="./images/F1.svg.png" alt="f1 rouge" width="100px">
-                <h1 class="white">Les Partenaires</h1>
+        <div class="justify-center">
+            <a class="flex" href="https://formula1.com/en/toolbar/partners.html">
+                <img src="./images/F1.svg.png" alt="f1 rouge" height="20px">
+                <h1 class="white">Les Partenaires<i class="fa-solid fa-chevron-right"></i></h1>
             </a>
         </div>
-        <div class="flex">
+        <div class="flex-column flex-md-row between">
             <div>
                 <ul>
                     <li>
-                        <a class="white" href="#top">Haut de page</a>
+                        <a class="white" href="#top">Haut de page <i class="fa-solid fa-arrow-up"></i></a>
                     </li>
                     <li>
                         <a class="white" href="./index.html">Formule 1</a>

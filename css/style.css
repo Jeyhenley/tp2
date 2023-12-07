@@ -19,6 +19,13 @@ a{
 li{
     list-style-type: none;
 }
+.flex{
+    display: flex;
+}
+.between{
+    display: flex;
+    justify-content: space-around;
+}
 /* style pour le nav */
 nav{
     position: fixed;
@@ -34,7 +41,14 @@ nav div{
 footer{
     background-color: #2b2b2b;
 }
-.flex{
+.justify-center{
     display: flex;
     justify-content: center;
+}
+footer div a img{
+    margin-top: 8px;
+}
+footer div a h1 i{
+    font-size: 18px;
+    margin-left: 5px;
 }
