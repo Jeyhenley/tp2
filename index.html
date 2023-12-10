@@ -13,7 +13,7 @@
     <script src="https://kit.fontawesome.com/05236b5b9c.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container">
+    <div class="">
     <!-- Ceci est le nav -->
         <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
         <div class="container-fluid">
@@ -66,23 +66,23 @@
         </nav>
     <!--Ceci est le contenu de la page -->
     <!-- Header pour un titre du contenu de la page -->
+    <div class="container">
         <header>
         <h1>Bienvenu dans le monde de la Formule 1</h1>
         </header>
     <!-- Les articles pour y mettre les contenus-->
         <article>
-        <h2>Top</h2>
+        <h2 id="blackline">Top</h2>
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active flex">
-                <img src="./images/Mercedes.png" class="d-block w-100" alt="Mercedes">
-                <img src="./images/redbull.png" alt="redbull">
+              <div class="carousel-item active">
+                <img src="./images/Mercedes.png" class="d-block w-100" alt="Mercedes" height="250px">
               </div>
               <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
+                <img src="./images/redbull.png" class="d-block w-100" alt="Red bull" height="250px">
               </div>
               <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
+                <img src="./images/ferrari.png" class="d-block w-100" alt="Ferrari" height="250px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -97,7 +97,10 @@
         </article>
         <article>
         <h2>Vidéo</h2>
-        <div id="lignered"></div>
+        <div id="lignered">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/viQC-6xoJ3E?si=3Yy8bhgFOGxJpSx_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/CZ86X1Ck1ZA?si=XF2UjZHB2HLE9NM6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
         </article>
         <hr>
         <article>
@@ -152,8 +155,10 @@
             </p>
         </div>
         </article>
+    </div>
     <!-- Ceci est le footer de la page -->
         <footer>
+        <div class="container">
         <div class="justify-center">
             <a class="flex" href="https://formula1.com/en/toolbar/partners.html">
                 <img src="./images/F1.svg.png" alt="f1 rouge" height="20px">
@@ -262,6 +267,7 @@
                     </li>
                 </ul>
             </div>
+        </div>
         </div>
         </footer>
     </div>

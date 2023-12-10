@@ -28,8 +28,7 @@ li{
 }
 /* style pour le nav */
 nav{
-    position: fixed;
-    z-index: 1;
+    
 }
 nav div{
     background-color: #ee0000;
@@ -62,4 +61,5 @@ footer div a h1 i{
     border-right: solid 5px #757575;
     border-bottom: solid 5px #757575;
     border-bottom-right-radius: 20px;
+    margin-right: 20px;
 }
