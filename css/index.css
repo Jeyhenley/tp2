@@ -7,10 +7,13 @@ abbr{
     padding-bottom: 10px;
     border-bottom: solid 5px black;
 }
-.redline{
+#lignered{
     border-right: solid 5px #ee0000;
-    border-bottom: solid 5 px #ee0000;
-    border-bottom-right-radius: 25px;   
+    border-bottom: solid 5px #ee0000;
+    border-bottom-right-radius: 25px;
+    max-width: max-content;
+    padding-right: 15px;
+    padding-bottom: 10px;
 }
 .rouge{
     border-bottom: solid 5px #ee0000;
