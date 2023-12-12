@@ -27,7 +27,7 @@ li{
     justify-content: space-around;
 }
 /* style pour le nav */
-.navbar{
+nav{
     position: fixed;
     top: 0%;
     width: 100%;
@@ -39,10 +39,21 @@ li{
 }
 nav div{
     background-color: #ee0000;
+    margin-left: 310px;
 }
 .navbar-nav{
     display: flex;
     align-items:center;
+}
+.absolute{
+    position: absolute;
+    right: 0%;
+    top: 6%;
+}
+.page{
+    border-bottom: solid 1px black;
+    border-right: solid 1px black;
+    border-bottom-right-radius: 10px;
 }
 header{
     margin-top: 90px;
@@ -53,6 +64,14 @@ header h1{
     border-top-right-radius: 25px;
     max-width: max-content;
     padding-right: 10px;
+    position: relative;
+    animation-name: move;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+}
+@keyframes move{
+    0%{left: -1500px;}
+    100%{left: 0px;}
 }
 /* style pouyr le footer */
 footer{
@@ -73,4 +92,11 @@ footer div a h1 i{
     border-right: solid 5px #757575;
     border-bottom: solid 5px #757575;
     border-bottom-right-radius: 20px;
+}
+.actfoot{
+    transition: 0.2s;
+}
+.actfoot:hover{
+    border-bottom: solid 1px #757575;
+    color: #757575;
 }

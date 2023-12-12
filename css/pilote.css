@@ -1,8 +1,32 @@
+.repeat{
+    background-image: url(../images/stickers-damier.jpg);
+    color: transparent;
+}
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+article div a{
+    color: black;
+    font-size: 22px;
+}
+article div a:hover{
+    transition: 0.2s;
+    color: #ee0000;
+    text-decoration: underline;
+}
 .grille{
     border-top: solid 3px black;
     border-left: solid 3px black;
     border-right: solid 3px black;
     margin-top: 20px;
     width: 250px;
-
+    height: 300px;
+}
+.grille img{
+    width: 250px;
+}
+.pair{
+    margin-top: 140px;
 }
